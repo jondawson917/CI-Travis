@@ -2,7 +2,7 @@ const { add, average } = require("./operations");
 
 describe("#add", function() {
   it("adds numbers", function() {
-    expect(add(4, 5)).toEqual(9);
+    expect(add(4, 4)).toEqual(8);
   });
   it("handles empty inputs", function() {
     expect(add()).toEqual(0);
